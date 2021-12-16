@@ -400,6 +400,8 @@ F 3 "~" H 1800 1700 50  0001 C CNN
 	1    1800 1700
 	-1   0    0    -1  
 $EndComp
+Text GLabel 6500 1000 2    50   Input ~ 0
+V+
 Wire Wire Line
 	6050 1000 6500 1000
 Connection ~ 6050 1000
@@ -433,6 +435,4 @@ Wire Wire Line
 	2100 2400 2100 2500
 Wire Wire Line
 	1950 2400 2100 2400
-Text GLabel 6500 1000 2    50   Input ~ 0
-V+
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-16743954493062595
+16748945898993595
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -71456,6 +71456,13 @@ Power Jack
 3
 3
 _сustom
+LUT_CP_Radial_D4.0mm_P2.00mm
+CP, Radial series, Radial, pin pitch=2.00mm, , diameter=4mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.00mm  diameter 4mm Electrolytic Capacitor
+0
+2
+2
+_сustom
 LUT_CP_Radial_D5.0mm_P2.50mm
 CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor
 CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor
@@ -71473,6 +71480,13 @@ _сustom
 LUT_CP_Radial_D7.5mm_P2.50mm
 CP, Radial series, Radial, pin pitch=2.50mm, , diameter=7.5mm, Electrolytic Capacitor
 CP Radial series Radial pin pitch 2.50mm  diameter 7.5mm Electrolytic Capacitor
+0
+2
+2
+_сustom
+LUT_CP_Radial_D8.0mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=8mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 8mm Electrolytic Capacitor
 0
 2
 2
@@ -71501,6 +71515,20 @@ _сustom
 LUT_C_Rect_H7.0mm_W2.0mm_P5.00mm
 C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2mm^2, Capacitor
 C Rect series Radial pin pitch 5.00mm  length 7mm width 2mm Capacitor
+0
+2
+2
+_сustom
+LUT_C_Rect_L7.0mm_W4.5mm_P5.00mm
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*4.5mm^2, Capacitor
+C Rect series Radial pin pitch 5.00mm  length 7mm width 4.5mm Capacitor
+0
+2
+2
+_сustom
+LUT_C_Rect_L10.3mm_W5.0mm_P7.50mm
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=10.3*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 7.50mm  length 10.3mm width 5mm Capacitor
 0
 2
 2
@@ -71546,13 +71574,6 @@ Fuseholder horizontal open 5x20 Stelvio-Kontek PTF/78
 0
 2
 2
-_сustom
-LUT_LOGO
-
-
-0
-0
-0
 _сustom
 LUT_Molex_KK-254_1x04_P2.54mm_Vertical
 Molex KK-254 Interconnect System, old/engineering part number: AE-6410-04A example for new part number: 22-27-2041, 4 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
@@ -71611,8 +71632,8 @@ Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W leng
 2
 _сustom
 LUT_TO-92
-TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)
-TO-92L Inline Wide transistor
+TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
 0
 3
 3

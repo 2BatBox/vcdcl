@@ -1,4 +1,4 @@
-16737385507178595
+16750591661704595
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -71456,9 +71456,37 @@ Power Jack
 3
 3
 _сustom
+LUT_CP_Radial_D4.0mm_P2.00mm
+CP, Radial series, Radial, pin pitch=2.00mm, , diameter=4mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.00mm  diameter 4mm Electrolytic Capacitor
+0
+2
+2
+_сustom
 LUT_CP_Radial_D5.0mm_P2.50mm
 CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor
 CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor
+0
+2
+2
+_сustom
+LUT_CP_Radial_D6.3mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor
+0
+2
+2
+_сustom
+LUT_CP_Radial_D7.5mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=7.5mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 7.5mm Electrolytic Capacitor
+0
+2
+2
+_сustom
+LUT_CP_Radial_D8.0mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=8mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 8mm Electrolytic Capacitor
 0
 2
 2
@@ -71491,6 +71519,20 @@ C Rect series Radial pin pitch 5.00mm  length 7mm width 2mm Capacitor
 2
 2
 _сustom
+LUT_C_Rect_L7.0mm_W4.5mm_P5.00mm
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*4.5mm^2, Capacitor
+C Rect series Radial pin pitch 5.00mm  length 7mm width 4.5mm Capacitor
+0
+2
+2
+_сustom
+LUT_C_Rect_L10.3mm_W5.0mm_P7.50mm
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=10.3*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 7.50mm  length 10.3mm width 5mm Capacitor
+0
+2
+2
+_сustom
 LUT_DIP-8
 8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
 THT DIP DIL PDIP 2.54mm 7.62mm 300mil
@@ -71512,6 +71554,13 @@ Diode A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7m
 2
 2
 _сustom
+LUT_D_P10.16mm_Horizontal
+Diode, A-405 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf
+Diode A-405 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm
+0
+2
+2
+_сustom
 LUT_FanPinHeader_1x03_P2.54mm_Vertical
 3-pin CPU fan Through hole pin header, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
 pin header 3-pin CPU fan
@@ -71519,12 +71568,12 @@ pin header 3-pin CPU fan
 3
 3
 _сustom
-LUT_LOGO
-
-
+LUT_Fuse-5x20mm_Horizontal_Open
+https://www.tme.eu/en/Document/3b48dbe2b9714a62652c97b08fcd464b/PTF78.pdf
+Fuseholder horizontal open 5x20 Stelvio-Kontek PTF/78
 0
-0
-0
+2
+2
 _сustom
 LUT_Molex_KK-254_1x04_P2.54mm_Vertical
 Molex KK-254 Interconnect System, old/engineering part number: AE-6410-04A example for new part number: 22-27-2041, 4 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
@@ -71583,8 +71632,15 @@ Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W leng
 2
 _сustom
 LUT_TO-92
-TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)
-TO-92L Inline Wide transistor
+TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
+_сustom
+LUT_TO-220-3_Vertical
+TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Vertical RM 2.54mm
 0
 3
 3
@@ -71596,14 +71652,14 @@ TO-251-3 Vertical RM 2.29mm IPAK
 3
 3
 _сustom
-Logo_Ozen_7.0x9.0
+Logo_Ozen_10x13
 
 
 0
 0
 0
 _сustom
-logo_chaika
+Logo_Ozen_Mirrored_7.0x9.0
 
 
 0

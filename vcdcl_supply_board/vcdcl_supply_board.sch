@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title ""
 Date ""
-Rev "1.3"
+Rev "1.4"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -257,22 +257,11 @@ L Device:CP1 C5
 U 1 1 61BF8022
 P 6650 2850
 F 0 "C5" H 6765 2896 50  0000 L CNN
-F 1 "470u 16v" H 6765 2805 50  0000 L CNN
+F 1 "470u 25v" H 6765 2805 50  0000 L CNN
 F 2 "_сustom:LUT_CP_Radial_D6.3mm_P2.50mm" H 6650 2850 50  0001 C CNN
 F 3 "~" H 6650 2850 50  0001 C CNN
 	1    6650 2850
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR012
-U 1 1 61C07B21
-P 6800 2600
-F 0 "#PWR012" H 6800 2450 50  0001 C CNN
-F 1 "+12V" V 6815 2728 50  0000 L CNN
-F 2 "" H 6800 2600 50  0001 C CNN
-F 3 "" H 6800 2600 50  0001 C CNN
-	1    6800 2600
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	6650 2500 6650 2600
@@ -472,12 +461,12 @@ Connection ~ 8100 1300
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 61C0200E
-P 2050 5600
-F 0 "H3" V 2287 5603 50  0000 C CNN
-F 1 "MountingHole_Pad" V 2196 5603 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 2050 5600 50  0001 C CNN
-F 3 "~" H 2050 5600 50  0001 C CNN
-	1    2050 5600
+P 2050 5550
+F 0 "H3" V 2287 5553 50  0000 C CNN
+F 1 "MountingHole_Pad" V 2196 5553 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 2050 5550 50  0001 C CNN
+F 3 "~" H 2050 5550 50  0001 C CNN
+	1    2050 5550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -622,17 +611,6 @@ Wire Wire Line
 	9500 1300 9100 1300
 Wire Wire Line
 	9100 1300 9100 1400
-$Comp
-L power:+15V #PWR07
-U 1 1 61D52F32
-P 9850 2100
-F 0 "#PWR07" H 9850 1950 50  0001 C CNN
-F 1 "+15V" V 9865 2228 50  0000 L CNN
-F 2 "" H 9850 2100 50  0001 C CNN
-F 3 "" H 9850 2100 50  0001 C CNN
-	1    9850 2100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9500 2100 9850 2100
 Connection ~ 9500 2100
@@ -645,39 +623,13 @@ Connection ~ 9100 1300
 Wire Wire Line
 	5600 1300 5100 1300
 Connection ~ 5600 1300
-$Comp
-L Connector:Conn_01x01_Female J3
-U 1 1 61D5085B
-P 7500 4050
-F 0 "J3" H 7392 3825 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 7392 3916 50  0000 C CNN
-F 2 "_сustom:LUT_PinHeader_1x01_P2.54mm_Vertical" H 7500 4050 50  0001 C CNN
-F 3 "~" H 7500 4050 50  0001 C CNN
-	1    7500 4050
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3700 1450 4200 1450
 Connection ~ 3700 1450
 Text GLabel 4200 1450 2    50   Input ~ 0
-Vin
-Text GLabel 7900 4050 2    50   Input ~ 0
-Vin
++19V
 Wire Wire Line
 	7700 4050 7900 4050
-$Comp
-L Connector:Conn_01x01_Female J4
-U 1 1 61D826F2
-P 7500 4400
-F 0 "J4" H 7392 4175 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 7392 4266 50  0000 C CNN
-F 2 "_сustom:LUT_PinHeader_1x01_P2.54mm_Vertical" H 7500 4400 50  0001 C CNN
-F 3 "~" H 7500 4400 50  0001 C CNN
-	1    7500 4400
-	-1   0    0    1   
-$EndComp
-Text GLabel 7900 4400 2    50   Input ~ 0
-Vin
 Wire Wire Line
 	7700 4400 7900 4400
 Wire Wire Line
@@ -710,28 +662,6 @@ F 3 "~" H 8700 4150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8550 4450 8700 4450
-$Comp
-L Connector:Conn_01x01_Female J1
-U 1 1 61DB7218
-P 8350 4050
-F 0 "J1" H 8242 3825 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 8242 3916 50  0000 C CNN
-F 2 "_сustom:LUT_PinHeader_1x01_P2.54mm_Vertical" H 8350 4050 50  0001 C CNN
-F 3 "~" H 8350 4050 50  0001 C CNN
-	1    8350 4050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J2
-U 1 1 61DB9536
-P 8350 4450
-F 0 "J2" H 8242 4225 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 8242 4316 50  0000 C CNN
-F 2 "_сustom:LUT_PinHeader_1x01_P2.54mm_Vertical" H 8350 4450 50  0001 C CNN
-F 3 "~" H 8350 4450 50  0001 C CNN
-	1    8350 4450
-	-1   0    0    1   
-$EndComp
 Connection ~ 7100 1300
 $Comp
 L Mechanical:MountingHole_Pad H4
@@ -794,17 +724,6 @@ Wire Wire Line
 Wire Wire Line
 	1350 4000 1450 4000
 $Comp
-L power:+15V #PWR0102
-U 1 1 61D59D56
-P 1650 3200
-F 0 "#PWR0102" H 1650 3050 50  0001 C CNN
-F 1 "+15V" V 1665 3328 50  0000 L CNN
-F 2 "" H 1650 3200 50  0001 C CNN
-F 3 "" H 1650 3200 50  0001 C CNN
-	1    1650 3200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R10
 U 1 1 61D61660
 P 1000 4050
@@ -853,14 +772,14 @@ F 3 "~" H 1000 4300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1000 4200 1000 4300
-Text Notes 950  1050 0    100  ~ 20
+Text Notes 850  1000 0    100  ~ 20
 Input Protection Board
 Wire Notes Line
 	750  750  750  2650
 Text GLabel 5100 1300 0    50   Input ~ 0
-Vin
++19V
 Text Notes 1950 3150 0    100  ~ 20
-+5v reference generator.
++5v reference generator
 Wire Notes Line
 	750  2800 4500 2800
 Wire Notes Line
@@ -875,7 +794,7 @@ Wire Notes Line
 	4500 750  4500 2650
 Wire Notes Line
 	4500 2650 750  2650
-Text Notes 4950 1050 0    100  ~ 20
+Text Notes 4750 1000 0    100  ~ 20
 Power Supply Board
 Wire Notes Line
 	4650 750  10400 750 
@@ -895,17 +814,6 @@ F 2 "" H 5700 4450 50  0001 C CNN
 F 3 "~" H 5700 4450 50  0001 C CNN
 	1    5700 4450
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR0105
-U 1 1 61FA7AE1
-P 5700 4150
-F 0 "#PWR0105" H 5700 4000 50  0001 C CNN
-F 1 "+12V" V 5715 4278 50  0000 L CNN
-F 2 "" H 5700 4150 50  0001 C CNN
-F 3 "" H 5700 4150 50  0001 C CNN
-	1    5700 4150
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5600 4250 5700 4250
@@ -929,23 +837,12 @@ F 3 "~" H 5400 4250 50  0001 C CNN
 	1    5400 4250
 	-1   0    0    -1  
 $EndComp
-Text Notes 4850 3950 0    100  ~ 20
+Text Notes 4750 3900 0    100  ~ 20
 Interface
 Connection ~ 2150 3900
 Connection ~ 3050 3900
 Wire Wire Line
 	3350 3900 3050 3900
-$Comp
-L power:+5V #PWR0106
-U 1 1 61D8CB4E
-P 3350 3900
-F 0 "#PWR0106" H 3350 3750 50  0001 C CNN
-F 1 "+5V" V 3365 4028 50  0000 L CNN
-F 2 "" H 3350 3900 50  0001 C CNN
-F 3 "" H 3350 3900 50  0001 C CNN
-	1    3350 3900
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3050 4300 3050 4400
 $Comp
@@ -1016,28 +913,6 @@ F 3 "~" H 2400 3900 50  0001 C CNN
 	1    2400 3900
 	0    1    1    0   
 $EndComp
-$Comp
-L power:+5V #PWR0109
-U 1 1 621620EB
-P 6750 4200
-F 0 "#PWR0109" H 6750 4050 50  0001 C CNN
-F 1 "+5V" V 6765 4328 50  0000 L CNN
-F 2 "" H 6750 4200 50  0001 C CNN
-F 3 "" H 6750 4200 50  0001 C CNN
-	1    6750 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+15V #PWR0110
-U 1 1 6217A4CE
-P 6750 4400
-F 0 "#PWR0110" H 6750 4250 50  0001 C CNN
-F 1 "+15V" V 6765 4528 50  0000 L CNN
-F 2 "" H 6750 4400 50  0001 C CNN
-F 3 "" H 6750 4400 50  0001 C CNN
-	1    6750 4400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6650 4400 6750 4400
 Wire Wire Line
@@ -1065,12 +940,12 @@ Wire Notes Line
 $Comp
 L Mechanical:MountingHole_Pad H5
 U 1 1 61DBAF53
-P 2800 5600
-F 0 "H5" V 3037 5603 50  0000 C CNN
-F 1 "MountingHole_Pad" V 2946 5603 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 2800 5600 50  0001 C CNN
-F 3 "~" H 2800 5600 50  0001 C CNN
-	1    2800 5600
+P 2800 5550
+F 0 "H5" V 3037 5553 50  0000 C CNN
+F 1 "MountingHole_Pad" V 2946 5553 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 2800 5550 50  0001 C CNN
+F 3 "~" H 2800 5550 50  0001 C CNN
+	1    2800 5550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1084,4 +959,66 @@ F 3 "~" H 2800 5950 50  0001 C CNN
 	1    2800 5950
 	0    -1   -1   0   
 $EndComp
+Text GLabel 6800 2600 2    50   Input ~ 0
++12V
+Text GLabel 9850 2100 2    50   Input ~ 0
++15V
+Text GLabel 5700 4150 2    50   Input ~ 0
++12V
+Text GLabel 6750 4400 2    50   Input ~ 0
++15V
+Text GLabel 7900 4050 2    50   Input ~ 0
++19V
+Text GLabel 7900 4400 2    50   Input ~ 0
++19V
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 61E07297
+P 7500 4050
+F 0 "J1" H 7418 3825 50  0000 C CNN
+F 1 "Conn_01x01" H 7418 3916 50  0000 C CNN
+F 2 "_сustom:LUT_PinHeader_1x01_P2.54mm_Vertical" H 7500 4050 50  0001 C CNN
+F 3 "~" H 7500 4050 50  0001 C CNN
+	1    7500 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 61E07E7C
+P 7500 4400
+F 0 "J3" H 7418 4175 50  0000 C CNN
+F 1 "Conn_01x01" H 7418 4266 50  0000 C CNN
+F 2 "_сustom:LUT_PinHeader_1x01_P2.54mm_Vertical" H 7500 4400 50  0001 C CNN
+F 3 "~" H 7500 4400 50  0001 C CNN
+	1    7500 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 61E0B232
+P 8350 4050
+F 0 "J2" H 8268 3825 50  0000 C CNN
+F 1 "Conn_01x01" H 8268 3916 50  0000 C CNN
+F 2 "_сustom:LUT_PinHeader_1x01_P2.54mm_Vertical" H 8350 4050 50  0001 C CNN
+F 3 "~" H 8350 4050 50  0001 C CNN
+	1    8350 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 61E0E515
+P 8350 4450
+F 0 "J4" H 8268 4225 50  0000 C CNN
+F 1 "Conn_01x01" H 8268 4316 50  0000 C CNN
+F 2 "_сustom:LUT_PinHeader_1x01_P2.54mm_Vertical" H 8350 4450 50  0001 C CNN
+F 3 "~" H 8350 4450 50  0001 C CNN
+	1    8350 4450
+	-1   0    0    1   
+$EndComp
+Text GLabel 1650 3200 1    50   Input ~ 0
++15V
+Text GLabel 3350 3900 2    50   Input ~ 0
++5V
+Text GLabel 6750 4200 2    50   Input ~ 0
++5V
 $EndSCHEMATC
